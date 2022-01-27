@@ -1,7 +1,7 @@
 Question 1: Discuss your initial thoughts in details on how you will design this application?
 
 This application will be implemented in a spreadsheet-like style, displaying the forms requested (such as the fuel quote history). We will use a middle layer to communicate 
-between the front-end and back-end.
+between the front-end and back-end. A barrier ensuring that only currently registered members can access the site will be implemented.
 
 Question 2: Discuss what development methodology you will use and why?
 
