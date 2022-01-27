@@ -1,0 +1,10 @@
+Question 1: Discuss your initial thoughts in details on how you will design this application?
+
+Question 2: Discuss what development methodology you will use and why?
+
+Incremental development has a lot of positive aspects for the scope of this software project. Firstly, different portions of this software will be implemented in separate sections,
+and so each of these different submissions can be developed as one increment. One of the negatives regarding the Incremental Model is that it is not good with large complex systems,
+but since the requirements are predefined with only five user-defined components, this does not apply. The advantages of this model are very beneficial for this project, as it allows
+the different components and functionalities to be available earlier than a linear Waterfall approach. 
+
+Question 3: Provide high level design / architecture of your solution that you are proposing?
