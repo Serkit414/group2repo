@@ -1,5 +1,7 @@
 Question 1: Discuss your initial thoughts in details on how you will design this application?
 
+This application will be implemented in a spreadsheet-like style, displaying the forms requested (such as the fuel quote history). 
+
 Question 2: Discuss what development methodology you will use and why?
 
 Incremental development has a lot of positive aspects for the scope of this software project. Firstly, different portions of this software will be implemented in separate sections,
