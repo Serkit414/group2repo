@@ -1,7 +1,9 @@
 Question 1: Discuss your initial thoughts in details on how you will design this application?
 
 This application will be implemented in a spreadsheet-like style, displaying the forms requested (such as the fuel quote history). We will use a middle layer to communicate 
-between the front-end and back-end. A barrier ensuring that only currently registered members can access the site will be implemented. For the front end, including user log-in and form submission, as well as quota history retrieval, we will use (TBA). For commmunicating with the front end UI and doing computations with user data, we will use (TBA). We communicate between the service layer and data with (TBA) and store data in a database with (TBA).
+between the front-end and back-end. A barrier ensuring that only currently registered members can access the site will be implemented. For the front end, including user log-in and form
+submission, as well as quota history retrieval, we will use (TBA). For commmunicating with the front end UI and doing computations with user data, we will use (TBA). We communicate
+between the service layer and data with (TBA) and store data in a database with (TBA).
 
 Question 2: Discuss what development methodology you will use and why?
 
