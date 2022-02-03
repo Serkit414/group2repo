@@ -15,3 +15,5 @@ advantageous, as it allows the different components and functionalities to be av
 Question 3: Provide high level design / architecture of your solution that you are proposing?
 
 A Software Architecture Diagram and UML Class Diagram can be found in this directory with "Software Architecture Design.jpg" and "RD.jpg" respectively.
+
+Question 4: List who did what within the group.
