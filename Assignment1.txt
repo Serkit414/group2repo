@@ -11,3 +11,5 @@ An Agile method has a lot of positive aspects for the scope of this software pro
 software will be implemented in separate sections and deployed at the end of each cycle. This is important for the Agile methods to allow flexible adaptation, and changes during the developmentation, which makes it easy to adjust previously established content when working on later segments. The incremental approach of this model we are going to be using is very advantageous, as it allows the different components and functionalities to be available earlier than a linear Waterfall approach. 
 
 Question 3: Provide high level design / architecture of your solution that you are proposing?
+
+A Software Architecture Diagram and UML Class Diagram can be found in this directory with "Software Architecture Design.jpg" and "RD.jpg" respectively.
