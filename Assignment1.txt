@@ -8,8 +8,6 @@ JavaScript. We will communicate between the service layer and data with SQL usin
 Question 2: Discuss what development methodology you will use and why?
 
 An Agile method has a lot of positive aspects for the scope of this software project. Specifically, we will be using a scaled agile framework. Firstly, different portions of this
-software will be implemented in separate sections and deployed at the end of each cycle. This is important for the  Agile methods allow flexible adaptation and changes during the
-developmentation, which makes it easy to adjust previously established content when working on later segments. The incremental approach of this model is very advantageous as it allows
-the different components and functionalities to be available earlier than a linear Waterfall approach. 
+software will be implemented in separate sections and deployed at the end of each cycle. This is important for the Agile methods to allow flexible adaptation, and changes during the developmentation, which makes it easy to adjust previously established content when working on later segments. The incremental approach of this model we are going to be using is very advantageous, as it allows the different components and functionalities to be available earlier than a linear Waterfall approach. 
 
 Question 3: Provide high level design / architecture of your solution that you are proposing?
