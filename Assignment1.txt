@@ -2,10 +2,14 @@ Question 1: Discuss your initial thoughts in details on how you will design this
 
 This application will be implemented in a spreadsheet-like style, displaying the forms requested (such as the fuel quote history). We will use a middle layer to communicate 
 between the front-end and back-end. A barrier ensuring that only currently registered members can access the site will be implemented. For the front end, including user log-in and form
-submission, as well as quota history retrieval, we will use HTML, CSS, and JavaScript. For commmunicating with the front end UI and doing computations with user data, we will use JavaScript. We will communicate between the service layer and data with SQL using a host server like Heroku, storing data in a database with MySQL.
+submission, as well as quota history retrieval, we will use HTML, CSS, and JavaScript. For commmunicating with the front end UI and doing computations with user data, we will use
+JavaScript. We will communicate between the service layer and data with SQL using a host server like Heroku, storing data in a database with MySQL.
 
 Question 2: Discuss what development methodology you will use and why?
 
-An Agile method has a lot of positive aspects for the scope of this software project. Specifically, we will be using a scaled agile framework. Firstly, different portions of this software will be implemented in separate sections and deployed at the end of each cycle. This is important for the  Agile methods allow flexible adaptation and changes during the developmentation, which makes it easy to adjust previously established content when working on later segments. The incremental approach of this model is very advantageous as it allows the different components and functionalities to be available earlier than a linear Waterfall approach. 
+An Agile method has a lot of positive aspects for the scope of this software project. Specifically, we will be using a scaled agile framework. Firstly, different portions of this
+software will be implemented in separate sections and deployed at the end of each cycle. This is important for the  Agile methods allow flexible adaptation and changes during the
+developmentation, which makes it easy to adjust previously established content when working on later segments. The incremental approach of this model is very advantageous as it allows
+the different components and functionalities to be available earlier than a linear Waterfall approach. 
 
 Question 3: Provide high level design / architecture of your solution that you are proposing?
