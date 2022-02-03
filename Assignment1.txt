@@ -17,3 +17,23 @@ Question 3: Provide high level design / architecture of your solution that you a
 A Software Architecture Diagram and UML Class Diagram can be found in this directory with "Software Architecture Design.jpg" and "RD.jpg" respectively.
 
 Question 4: List who did what within the group.
+
+
+Group Member Name |Benjamin Rosen  
+What is your contribution? |Helped contribute to the creation of our GitHub account. Helped with the creation of our diagram (UML). Discussed possibilities for our websites hosting    
+
+Discussion Notes |1st meet: Talked about languages we could use, what websites we had experience with, and what type of UML diagram style we should use, and lastly what websites to host everything. 2nd meet: talked about the diagrams we had created so far, found an effective use for Miro for making boards, and we collaborated a little with the designs and concepts of one of our original diagrams 3rd meet: finalizing what pieces need to go on the diagram, and creating our table of responsibilities. We met either after class on Monday, or we would    
+
+  
+
+Group Member Name | Zachary Robinson  
+What is your contribution? | Worked on creating the Software Architecture Diagram, helped describe the methodology to be used in our design, helped describe technologies.  
+
+Discussion Notes | 1st meet: Discussed languages and technologies as well what diagrams and planning techniques to use. 2nd meeting: Discussed our work on the diagrams using Miro and continued refining the diagrams. 3rd meet: Finalized the diagram designs and finalized decisions on technologies and methods. We met after class on Monday and on Wednesday at class time.  
+
+  
+
+Group Member Name | Benjamin Bates  
+What is your contribution? | I contributed to discussions regarding the creation of our team GitHub repository and the planning of our web app. Helped in the creation and modifications regarding the UML diagram. Discussed coding language use and how the web app will function.  
+
+Discussion Notes | The group got together on January 26 and discussed our previous experiences and languages we have worked with. We then discussed our ideas for planning our assignment and what thoughts we had on the UML and architecture diagrams. The group got together again on January 31 and worked on the UML and architecture diagrams, finalizing the use of Miro for our project planning. We then met on February 2 to finalize assignment #1. 
