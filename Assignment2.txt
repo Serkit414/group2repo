@@ -1,0 +1,36 @@
+Question 1: Provide link to GitHub repository for TAs to view the code?
+
+
+
+Question 2: Discuss if your design and development methodology has changed since assignment 1 and why?
+
+
+
+Question 3: List what front end technologies you are using and why. List who is responsible of doing what in your group?
+
+
+
+Question 4: Provide screenshots of your front end, each page?
+
+
+
+Question 5: List who did what within the group.
+
+Group Member Name |Benjamin Rosen  
+What is your contribution? | Set up Heroku app. Built the HTML and Javascript for the home and login page. Contributed to the CSS of the web app.
+
+Discussion Notes | 
+
+
+
+Group Member Name | Zachary Robinson  
+What is your contribution? | Built the HTML and Javascript for the fuel quote form and fuel quote history page. Contributed to the CSS of the web app.
+
+Discussion Notes | 
+
+
+
+Group Member Name | Benjamin Bates  
+What is your contribution? | Built the HTML and Javascript for the client registration and client profile management page. Contributed to the CSS of the web app.    
+
+Discussion Notes | Our first meeting was done on February 2 where we discussed the division of work. This included dividing the web app into 6 pages (2 pages per person) and deciding to work individually on the HTML and Javascript, while working together on the CSS to create a uniform web app. This development will be done on Heroku. 
