@@ -33,4 +33,4 @@ Discussion Notes |
 Group Member Name | Benjamin Bates  
 What is your contribution? | Built the HTML and Javascript for the client registration and client profile management page. Contributed to the CSS of the web app.    
 
-Discussion Notes | Our first meeting was done on February 2 where we discussed the division of work. This included dividing the web app into 6 pages (2 pages per person) and deciding to work individually on the HTML and Javascript, while working together on the CSS to create a uniform web app. This development will be done on Heroku. 
+Discussion Notes | Our first meeting was done on February 2 where we discussed the division of work. This included dividing the web app into 6 pages (2 pages per person) and deciding to work individually on the HTML and Javascript, while working together on the CSS to create a uniform web app. This development will be done on Heroku. Our second meeting of this assignment was done on February 9 where we rediscussed our projects platform. We realized that Heroku didn't possess the components we needed and decided to look towards GitHub Pages to host our frontend work.
