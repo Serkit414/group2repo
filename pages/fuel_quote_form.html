@@ -12,20 +12,20 @@
     <body>
         <h1>Fuel Quote Form</h1>
 
-        <form action = "fuel_quote_confirmation.html">
-            <label for = "FullName">Full Name:</label>
-            <input type = "text" class = "FullName" name = "FullName">
-            <label for = "Address1">Address 1:</label>
-            <input type = "text" class = "Address1" name = "Address1">
-            <label for = "Address2">Address 2:</label>
-            <input type = "text" class = "Address2" name = "Address2">
-            <label for = "City">City:</label>
-            <input type = "text" class = "City" name = "City">
-            <label for = "State">State:</label>
-            <input type = "text" class = "State" name = "State">
-            <label for = "Zipcode">Zipcode:</label>
-            <input type = "text" class = "Zipcode" name = "Zipcode">
-            <input type = "submit" class = "submitForm" value="Submit">
+        <div>
+            <span>Suggested Price/Gallon: $</span>
+            <span id = "price" display = "inline">2.50</span>
+        </div>
+
+        <form id = "fuelForm" action = "fuel_quote_data_recap.html" method = "POST">
+            <label for = "GallonNumber">Number of Gallons:</label>
+            <input type = "number" id = "GallonNumber" name = "GallonNumber" min = "0">
+            <label for = "DelAddr">Delivery Address:</label>
+            <textarea  id = "DelAddr" name = "DelAddr" rows = "2" cols = "50" placeholder = ""></textarea>
+            <label for = "DelDate">Delivery Date:</label>
+            <input type = "date" id = "DelDate" name = "DelDate">
+
+            <input type = "submit" id = "submitForm" value="Submit">
         </form>
     </body>
 </html>
