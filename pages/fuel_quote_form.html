@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <meta charset="UTF-8">
+    <title>Fuel Quote Form</title>
+    <head>
+        <style>
+            label, input{
+                display: block;
+            }
+        </style>
+        <script src = "../js/historyLoader.js"></script>
+    </head>
+    <body>
+        <h1>Fuel Quote Form</h1>
+
+        <div>
+            <span>Suggested Price/Gallon: $</span>
+            <span id = "price" display = "inline">2.50</span>
+        </div>
+
+        <form id = "fuelForm" action = "fuel_quote_php.php" method = "POST">
+            <label for = "GallonNumber">Number of Gallons:</label>
+            <input type = "number" id = "GallonNumber" name = "GallonNumber" min = "0" required> <br>
+            <label for = "DelAddr">Delivery Address:</label>
+            <span>123 Apple Dr, Houston, TX, 77204</span><br><br>
+            <label for = "DelDate">Delivery Date:</label>
+            <input type = "date" id = "DelDate" name = "DelDate" required>
+
+            <input type = "submit" id = "submitForm" value="Submit">
+        </form>
+        <br>
+        <button type = "button" onclick="historyLoader()">View History</button>
+    </body>
+</html>
