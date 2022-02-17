@@ -3,18 +3,20 @@
     <meta charset="UTF-8">
     <title>Fuel Quote Form</title>
     <head>
-        <style>
-            label, input{
-                display: block;
-            }
-        </style>
-        <script src = "../js/formLoader.js"></script>
-    </head>
+        <link rel="stylesheet" href="../styles.css">
+        <script src = "../js/formMover.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        </head>
     <body>
-        <h1>Fuel Quote History</h1>
+        <div class = "quote-form">
+        <h2 class = "text-center">Fuel Quote History</h2>
 
-        <table>
-            <caption>(1/19/22)</caption> 
+        <table class = "histTable">
+            <p class = "text-center">(1/19/22)</p> 
             <tr>
                 <th>Gallon Number: </th>
                 <td>500</td>
@@ -33,8 +35,8 @@
             </tr>
         </table>
         <br>
-        <table>
-            <caption>(1/04/22)</caption> 
+        <table class = "histTable">
+            <p class = "text-center">(1/04/22)</p> 
             <tr>
                 <th>Gallon Number: </th>
                 <td>100</td>
@@ -53,8 +55,8 @@
             </tr>
         </table>
         <br>
-        <table>
-            <caption>(10/12/21)</caption> 
+        <table class = "histTable">
+            <p class = "text-center">(10/12/21)</p> 
             <tr>
                 <th>Gallon Number: </th>
                 <td>2000</td>
@@ -72,6 +74,8 @@
                 <td>$5520.00</td>
             </tr>
         </table>
-        <button type = "button" onclick="formLoader()">Submit New Quote</button>
+        <br>
+        <button type = "button" onclick="formLoader()" class = "btn btn-primary btn-block">Submit New Quote</button>
+    </div>
     </body>
 </html>
