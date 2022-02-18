@@ -17,14 +17,17 @@ Question 5: List who did what within the group.
 Group Member Name |Benjamin Rosen  
 What is your contribution? | Set up Heroku app. Built the HTML and Javascript for the home and login page. Contributed to the CSS of the web app.
 
-Discussion Notes | 
-
+Discussion Notes | On our first meet of Assignment 2 , was done on February 14 where we breifly discussed the CSS format and our collection of pages. For the next meeting of this assignment on February 16, we discussed the collection of our seperate material and decided how and when we were going to turn Assignment 2 in. Our final meeting for assignment 2 was done on February 18 where we answered the assignment questions togther and turned in the word document with our work.
 
 
 Group Member Name | Zachary Robinson  
 What is your contribution? | Built the HTML and Javascript for the fuel quote form and fuel quote history page. Contributed to the CSS of the web app.
 
-Discussion Notes | 
+Discussion Notes | 2/7: We looked over the requirements and split up the files that were the most similar. We then decided to meet again later to develop the CSS styles once we had rough .html files completed. 2/14: We discussed our progress on the .html files and discussed possible changes with how to display our website. We decided to use Ionis but wanted to first finish the .html files.
+
+
+
+2/16: We worked on unifying the styling of the web pages, added tabs to the top of the pages to connect all our individual .html files, and continued working on the domain name and website to hold our project with Ionis.
 
 
 
