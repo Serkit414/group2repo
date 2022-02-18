@@ -3,12 +3,10 @@ Question 1: Provide link to GitHub repository for TAs to view the code?
 https://github.com/Serkit414/group2repo
 
 Question 2: Discuss if your design and development methodology has changed since assignment 1 and why?
-
-
+Our design hasn't changed since we started this project. 
 
 Question 3: List what front end technologies you are using and why. List who is responsible of doing what in your group?
-
-
+For the front end, we're using html/php on our designs. Using Heroku and XAMPP, we should be able to push to our domain on IONOS to our domain on http://group2fuelproj.com/. Ben R. is/was responsible for the login page and homepage, Zach R. did, Fuel Quote form, Fuel Quote History, Ben B. did Client Registration, and Client Profile pages.
 
 Question 4: Provide screenshots of your front end, each page?
 
