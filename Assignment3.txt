@@ -1,0 +1,27 @@
+1.  Provide link to GitHub repository for TAs to view the code. Code should include unit tests.(5 points)
+
+https://github.com/Serkit414/group2repo
+
+2.  List what backend technologies you are using and why? (2 points)
+
+
+
+3.  List who did what within the group.
+
+
+Group Member Name | Benjamin Rosen 
+What is your contribution? | 
+
+Discussion Notes | 
+
+
+Group Member Name | Zachary Robinson
+What is your contribution? | 
+
+Discussion Notes | 
+
+
+Group Member Name | Benjamin Bates  
+What is your contribution? | 
+
+Discussion Notes | Our first meeting was done on February 25...
