@@ -1,65 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Bootstrap Simple Login Form</title>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-<script src ="../js/tab.js"></script>
-<link rel="stylesheet" href="../styles.css">
-</head>
-  <header>
-  <!-- Tab links -->
-  <div class="tab">
-    <button class="tablinks" onclick="loginTab()">Login</button>
-    <button class="tablinks" onclick="registerTab()">Register</button>
-    <button class="tablinks" onclick="profileTab()">Profile</button>
-    <button class="tablinks" onclick="quoteTab()">Fuel Quote</button>
-    <button class="tablinks" onclick="historyTab()">Fuel Quote History</button>
-  </div>
-  </header>
-<body>
-<div class="quote-form">
-	<form action="/examples/actions/confirmation.php" method="post">
-		<h2 class="text-center">Profile Management</h2>
-		<div class="form-group">
-          	<label>Full Name:</label>
-			<input type="text" class="form-control" required="required" maxlength="50">
-		</div>
-		<div class="form-group">
-          	<label>Address 1:</label>
-			<input type="text" class="form-control" required="required" maxlength="100">
-		</div>
-      	<div class="form-group">
-          	<label>Address 2:</label>
-			<input type="text" class="form-control" maxlength="100">
-		</div>
-      	<div class="form-group">
-          	<label>City:</label>
-			<input type="text" class="form-control" required="required" maxlength="100">
-		</div>
-      	<div class="form-group">
-          	<label>State:</label>
-			<select name="state" class="form-control" required="required">
-              	<option value="">Select your option</option>
-             	<option value="volvo">AL</option>
-             	<option value="volvo">AZ</option>
-                <option value="volvo">NV</option>
-             	<option value="volvo">TX</option>
-          	</select>
-      	</div>
-      	<div class="form-group">
-          	<label>Zipcode:</label>
-			<input type="text" class="form-control" required="required" maxlength="9" minlength="5">
-		</div>
-		<div class="form-group">
-			<button type="submit" class="btn btn-primary btn-block">Update Profile</button>
-		</div>
-	</form>
-</div>
-</body>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Profile Management Form</title>
+	<head>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+		<script src ="../js/tab.js"></script>
+		<link rel="stylesheet" href="../styles.css">
+		<script src = "../js/formMover.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="tab">
+				<button class="tablinks" onclick="loginTab()">Login</button>
+				<button class="tablinks" onclick="registerTab()">Register</button>
+				<button class="tablinks" onclick="profileTab()">Profile</button>
+				<button class="tablinks" onclick="quoteTab()">Fuel Quote</button>
+				<button class="tablinks" onclick="historyTab()">Fuel Quote History</button>
+			</div>
+		</header>
+	<div class="quote-form">
+		<form id = "profileForm" action = "../php/client_profile_management_php.php" method="POST">
+			<h2 class="text-center">Profile Management</h2>
+			<div class="form-group">
+				<label>Full Name:</label>
+				<input type="text" class="form-control" id = "fullname" name = "fullname" required="required" maxlength="50">
+			</div>
+			<div class="form-group">
+				<label>Address 1:</label>
+				<input type="text" class="form-control" id = "address1" name = "address1" required="required" maxlength="100">
+			</div>
+			<div class="form-group">
+				<label>Address 2:</label>
+				<input type="text" class="form-control" id = "address2" name = "address2" maxlength="100">
+			</div>
+			<div class="form-group">
+				<label>City:</label>
+				<input type="text" class="form-control" id = "city" name = "city" required="required" maxlength="100">
+			</div>
+			<div class="form-group">
+				<label>State:</label>
+				<select name="state" class="form-control" required="required">
+					<option value="">Select your option</option>
+					<option value="Alabama">AL</option>
+					<option value="Arizona">AZ</option>
+					<option value="Nevada">NV</option>
+					<option value="Texas">TX</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label>Zipcode:</label>
+				<input type="text" class="form-control" id = "zipcode" name = "zipcode" required="required" maxlength="9" minlength="5">
+			</div>
+			<div class="form-group">
+				<button type="submit" class="btn btn-primary btn-block">Update Profile</button>
+			</div>
+		</form>
+	</div>
+	</body>
 </html>
