@@ -10,7 +10,7 @@ function denyInfo()
 
 function formLoader()
 {
-    window.location.href="../pages/fuel_quote_form.html";
+    window.location.href="../php/fuelQuoteForm.php";
 }
 
 function historyLoader()
