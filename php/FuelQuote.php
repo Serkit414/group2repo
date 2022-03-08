@@ -30,7 +30,6 @@ require_once('PriceCalculator.php');
                 $this->deliveryDate = $delivery;
             }
             else{
-                //TEMP FOR TESTING, WILL DO MORE LATER
                 $this->numGallons = -1;
                 $this->deliveryDate = "1901-01-01";
                 header("Location: ../pages/fuel_quote_err.html");
