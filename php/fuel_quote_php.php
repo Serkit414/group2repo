@@ -15,7 +15,7 @@
 <body>
     <?php
         require_once('FuelQuote.php');
-        
+        require_once('PriceCalculator.php');
         $userQuote = new FuelQuote($_POST["GallonNumber"], $_POST["DelDate"]);
 
     ?>
@@ -36,15 +36,16 @@
         <br>
 
         <div class = "form-group">
-            <span>Suggested Price/Gallon: $</span> <span id = "price">2.50</span> <br>
+            <span>Suggested Price/Gallon:</span> <span id = "defaultPrice"><?php echo PriceCalculator::suggestedPrice() ?></span> <br>
         </div>
 
         <div class = "form-group">
-            <span>Gallon Number: </span><span id = "number"><?php echo $userQuote -> getGallons(); ?></span> <br>
+            <span>Gallon Number: </span><span id = "GallonNumber"><?php echo $userQuote -> getGallons(); ?></span> <br>
         </div>
 
         <div class = "form-group">
-            <p>Delivery Address: 123 Apple Dr, Houston, TX, 77204</p>
+            <label for = "DelAddr">Delivery Address:</label>
+            <span id = "profileAddress"></span>
         </div>
 
         <div class = "form-group">
@@ -52,7 +53,7 @@
         </div>
 
         <div class = "form-group">
-            <span>Total Cost: $</span> <span id = "costAmount"></span> <br>
+            <span>Total Cost: </span> <span id = "costAmount"><?php echo $userQuote -> calculatePrice()?></span> <br>
         </div>
 
         <div class = "form-group">
@@ -65,6 +66,6 @@
     </form>
 </div>
 
-<script src = "../js/priceCalc.js"></script>
+<script src = "../js/formFiller.js"></script>
 </body>
 </html> 
