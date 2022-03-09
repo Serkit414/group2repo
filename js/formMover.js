@@ -27,3 +27,8 @@ function denyProf()
 {
     window.location.href="../pages/client_profile_management.html"
 }
+
+function profileLoader()
+{
+    window.location.href = "../php/clientProfile.php";
+}
