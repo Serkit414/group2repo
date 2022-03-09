@@ -10,7 +10,7 @@ function registerTab()
 
 function profileTab()
 {
-    window.location.href = "../pages/client_profile_management.html";
+    window.location.href = "../php/clientProfile.php";
 }
 
 function quoteTab()
