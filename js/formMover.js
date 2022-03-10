@@ -15,7 +15,7 @@ function formLoader()
 
 function historyLoader()
 {
-    window.location.href = "../php/fuel_quote_display.php";
+    window.location.href = "../php/fuel_quote_history.php";
 }
 
 function confirmProf()
