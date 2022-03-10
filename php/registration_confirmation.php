@@ -16,7 +16,7 @@
 
 <body>
   <?php
-    require_once('Registration.php');
+    require_once('php_class/Registration.php');
     $clientRegistration = new ClientRegistration($_POST["Username"], $_POST["Password"]);
   ?>
   <header>
