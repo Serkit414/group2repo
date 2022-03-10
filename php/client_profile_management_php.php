@@ -14,7 +14,7 @@
 
 <body>
     <?php
-        require_once('ClientProfileManagement.php');
+        require_once('php_class/ClientProfileManagement.php');
         
         $userProfile = new ClientProfileManagement($_POST["fullname"], $_POST["address1"], $_POST["address2"], $_POST["city"], $_POST["state"], $_POST["zipcode"]);
 
