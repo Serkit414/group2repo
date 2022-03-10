@@ -20,7 +20,7 @@ function historyLoader()
 
 function confirmProf()
 {
-    window.location.href="../pages/client_profile_management.html"
+    window.location.href="../pages/client_profile_management_confirmation.html"
 }
 
 function denyProf()
