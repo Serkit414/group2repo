@@ -28,8 +28,8 @@
 
         <?php
             
-            require_once('FuelQuote.php');
-            require_once('FuelHistory.php');
+            require_once('php_class/FuelQuote.php');
+            require_once('php_class/FuelHistory.php');
             
             echo FuelHistory::generateHistory("sampleUsername");
         ?>
