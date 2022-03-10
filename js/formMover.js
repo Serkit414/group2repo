@@ -1,11 +1,11 @@
 function confirmInfo()
 {
-    window.location.href="../pages/fuel_quote_confirmation.html"
+    window.location.href="../pages/fuel_quote_confirmation.html";
 }
 
 function denyInfo()
 {
-    window.location.href="../pages/fuel_quote_form.html"
+    window.location.href="../php/fuelQuoteForm.php";
 }
 
 function formLoader()
@@ -15,20 +15,21 @@ function formLoader()
 
 function historyLoader()
 {
-    window.location.href = "../pages/fuel_history.html";
+    window.location.href = "../php/fuel_quote_display.php";
 }
 
 function confirmProf()
 {
-    window.location.href="../pages/client_profile_management_confirmation.html"
+    window.location.href="../pages/client_profile_management_confirmation.html";
 }
 
 function denyProf()
 {
-    window.location.href="../pages/client_profile_management.html"
+    window.location.href="../pages/client_profile_management.html";
 }
 
 function profileLoader()
 {
     window.location.href = "../php/clientProfile.php";
 }
+
