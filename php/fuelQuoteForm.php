@@ -14,7 +14,7 @@
     </head>
     <body>
         <?php
-        require_once('PriceCalculator.php');
+        require_once('php_class/PriceCalculator.php');
         ?>
         <header>
             <!----- Tab links ----->
