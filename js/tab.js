@@ -20,6 +20,6 @@ function quoteTab()
 
 function historyTab()
 {
-    window.location.href = "../php/fuel_quote_display.php";
+    window.location.href = "../php/fuel_quote_history.php";
 }
 
