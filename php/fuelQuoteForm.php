@@ -29,7 +29,7 @@
         <div class = "quote-form">
             <h2 class = "text-center">Fuel Quote Form</h2>
 
-            <form id = "fuelForm" action = "../php/fuel_quote_php.php" method = "POST">
+            <form id = "fuelForm" action = "../php/fuel_quote_result.php" method = "POST">
                 <div>
                     <span>Suggested Price/Gallon: </span>
                     <span id = "defaultPrice"><?php echo PriceCalculator::suggestedPrice() ?></span>
