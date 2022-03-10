@@ -14,8 +14,8 @@
 
 <body>
     <?php
-        require_once('FuelQuote.php');
-        require_once('PriceCalculator.php');
+        require_once('php_class/FuelQuote.php');
+        require_once('php_class/PriceCalculator.php');
         $userQuote = new FuelQuote($_POST["GallonNumber"], $_POST["DelDate"]);
 
     ?>
