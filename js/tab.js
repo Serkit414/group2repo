@@ -5,7 +5,7 @@ function loginTab()
 
 function registerTab()
 {
-    window.location.href = "../pages/client_registration.html";
+    window.location.href = "../pages/registration.html";
 }
 
 function profileTab()
