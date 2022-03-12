@@ -33,3 +33,8 @@ function profileLoader()
     window.location.href = "../php/clientProfile.php";
 }
 
+function loginLoader()
+{
+    window.location.href = "../pages/login.html";
+}
+
