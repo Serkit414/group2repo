@@ -4,8 +4,13 @@
         private $password;
 
         function validateParams($Username, $Password){
-            $validParams = true;
-            
+            if ($Username == "" or $Password == ""){
+                $validParams = false;
+            }
+            else{
+                $validParams = true;
+            }
+
             return $validParams;
         }
 
