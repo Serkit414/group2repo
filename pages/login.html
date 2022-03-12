@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Bootstrap Simple Login Form</title>
+<title>Fuel Quote Login</title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
@@ -24,13 +24,13 @@
   </header>
 <body>
 <div class="quote-form">
-<form action="/examples/actions/confirmation.php" method="post">
+<form action="../php/login_checking.php" method="post">
 <h2 class="text-center">Log in</h2>
 <div class="form-group">
-<input type="text" class="form-control" placeholder="Username" required="required">
+<input type="text" name = "username" id = "username" class="form-control" placeholder="Username" required="required">
 </div>
 <div class="form-group">
-<input type="password" class="form-control" placeholder="Password" required="required">
+<input type="password" name = "password" id = "password" class="form-control" placeholder="Password" required="required">
 </div>
 <div class="form-group">
 <button type="submit" class="btn btn-primary btn-block">Log in</button>
@@ -40,7 +40,7 @@
 <a href="#" class="float-right">Forgot Password?</a>
 </div>
 </form>
-<p class="text-center"><a href="#">Create an Account</a></p>
+<p class="text-center"><a href="client_registration.html">Create an Account</a></p>
 </div>
 </body>
 </html>
